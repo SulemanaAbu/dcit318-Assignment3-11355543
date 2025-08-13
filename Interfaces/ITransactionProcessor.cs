@@ -1,7 +1,9 @@
-﻿namespace Q1_FinanceManagementSystem.Interfaces
+﻿using FinanceManagementSystem.Models;
+
+namespace FinanceManagementSystem.Interfaces
 {
-    public class ITransactionProcessor
+    public interface ITransactionProcessor
     {
-        
+        void Process(Transaction transaction);
     }
 }

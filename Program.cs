@@ -1,9 +1,13 @@
-﻿namespace Q1_FinanceManagementSystem
+﻿using FinanceManagementSystem.App;
+
+namespace FinanceManagementSystem
 {
-    internal class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
+            FinanceApp app = new FinanceApp();
+            app.Run();
         }
     }
 }
